@@ -9,7 +9,7 @@ using System.Web;
 
 namespace _02_CacaAoBugMVC.Model
 {
-    class ValidaService
+   public class ValidaService
     {
         //padrão:
         // - minimo de 3 caracteres
