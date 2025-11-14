@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace _02_CacaAoBugMVC.Model
 {
-     class AlunoService
+     public class AlunoService
     {
         public double CalcularMedia( double n1, double n2,double n3)
         {
-            return CalcularMedia(n1, n2, n3) / 3;
+            //não valida entrada aqui;validações ficam no ValidacaoService/Controller
+            return Math.Round( (n1+ n2+ n3) / 3.0, 2);
         }
         public string ObterSituacao(double media)
         {
-            if (media >= 7)
+            if (media >= 7.0)
                 return "Aprovado";
-            else if (media >= 5)
+            else if (media >= 5.0)
                 return "Em Exame Final";
             else
                 return "Reprovado";
