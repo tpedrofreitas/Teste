@@ -46,6 +46,8 @@
     <Compile Include="Controller\AlunoController.cs" />
     <Compile Include="Model\Aluno.cs" />
     <Compile Include="Model\AlunoService.cs" />
+    <Compile Include="Model\MembrosEstaticosInstancia.cs" />
+    <Compile Include="Model\PassagemParametros.cs" />
     <Compile Include="Model\ValidaService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
