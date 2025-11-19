@@ -43,5 +43,6 @@ namespace _02_CacaAoBugMVC.Test
             var resultadoReprovado = service.ObterSituacao(4.9);
             Assert.AreEqual("Reprovado", resultadoReprovado);
         }
+
     }
 }
